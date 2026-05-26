@@ -20,7 +20,7 @@
 
     background-image:url(image1.png);
     border-radius: 20px;
-    width: 515px;
+    width: 500px;
     padding: 70px;
     margin: auto;
 }
@@ -49,7 +49,7 @@
 }
 
 input{
-  width: 90%;
+  width:30%;
   padding: 10px;
   border-radius: 6px;
   border: 1px solid gray;
@@ -68,16 +68,3 @@ input{
     background-color: cadetblue;
 }
 
-/*@media(max-width:768px){
-
-    .world,
-    .bird{
-        width:90%;
-        padding:20px;
-    }
-
-    .hello{
-        font-size:28px;
-    }
-
-}*/

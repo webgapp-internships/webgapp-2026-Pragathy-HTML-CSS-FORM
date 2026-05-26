@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title >signup</title>
+        <style>
+           .container{
+                 
+                
+                 height:90vh;
+                 display:flex;
+                 justify-content: center;
+                 align-items:center;
+                }
+
+           .box{
+                 background-color: rgba(0, 0, 0, 0.3);
+                 width:350px;
+                 height:350px;
+                 border-radius: 12px;
+                 
+
+                 
+            }
+            .btn{
+               background-color:ghostwhite;
+               color:black;
+                padding: 6px 15px;
+                border: none;
+               border-radius: 8px;
+               font-size: 15px;
+               margin-top:30px;
+              cursor:pointer;
+    
+}
+
+.btn:hover{
+    background-color: lightgray;
+}
+
+.link{
+    
+   text-decoration: none;
+   color:black;
+   font-size:15px;
+   
+
+
+}
+        </style>
+    </head>
+    <nav style="background-color:transparent;padding:15px; display: flex;gap:60px;">
+        <a href="new.html" class="link">Form</a>
+        <a href="home.html" class="link">Home</a>
+        <a href="file.html" class="link">Login</a>
+    </nav>
+    <body style="background-image: url(calm.jpeg);background-size: cover;">
+    <div class="container">
+     <div class="box">
+       <div style="text-align: center;padding:40px;">
+        <label style="text-align:center;font-size:20px;color: white;">Create Account</label><br><br>
+
+        <input type="text" placeholder="Name"><br><br>
+        <input type="email" placeholder="email"><br><br>
+        <input type="password" placeholder="password"><br><br>
+        <div style="color:white;">
+         <input type="checkbox" >I Agree the terms and conditions
+         </div>
+        <button class="btn">Sign up</button><br><br>
+        <label style="color:white">Already have an account? <a href="file.html">Login</a></label>
+        </div>
+     </div>
+     </div>
+    </body>
+</html>

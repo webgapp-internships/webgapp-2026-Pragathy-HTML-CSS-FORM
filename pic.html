@@ -2,17 +2,36 @@
 <html>
     <head>
         <title>document 3</title>
+        <style>
+         .box{
+          width:100px;
+          height:100px;
+          display:flex;
+          
+         }
+        </style>
     </head>
 
     <body>
        
-      <div >
-        <img src="pic1.png"style="position:absolute ;width:200px ;height:200px ; top:0 ;right:0 ";>
-        <img src="pic2.png"style="position:absolute;width:200px ;height:200px ;top:0;left:0 ";>
-        <img src="pic3.png"style="position:absolute ;width:200px ;height:200px ;bottom:0 ; right:0 ";>
-       <img src="pic4.png"style="position:absolute;width:200px ;height:200px ;bottom:0 ;left:0 ";>
-      <img src="pic5.png"style="position: absolute ;width:200px ;height:170px ;top:35% ;right:43% ";>
-      <label style="position:absolute; top:46%; right:49%; font-size: larger";>Website</label><br><br>
+      <div style="display:grid;
+              gap:10px;
+              grid-template-columns: repeat(3,1fr,2fr,3fr);">
+
+        <div>1
+        <img src="pic1.png"><br>
+        </div>
+        <div>2
+        <img src="pic2.png"><br>
+         </div>
+         <div>3
+        <img src="pic3.png"><br>
+        </div>
+        <div>4
+       <img src="pic4.png"><br>
+       </div>
+      <img src="pic5.png""><br>
+      
       
       </div><br><br>
 
@@ -20,4 +39,4 @@
     </body>
 
 
-</html>
+</html
