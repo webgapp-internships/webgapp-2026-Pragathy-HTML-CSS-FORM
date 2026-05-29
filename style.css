@@ -16,6 +16,26 @@
 .hello{
     font-size: 35px;
 }
+
+.footer{
+   width:100%;
+
+   position:fixed;
+   bottom:0;
+   left:0;
+
+   text-align:center;
+
+   padding:12px;
+
+   background:rgba(0,0,0,0.2);
+
+   backdrop-filter:blur(5px);
+
+   color:white;
+
+   font-size:16px;
+}
 .bird{
 
     background-image:url(image1.png);
